@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    padding: 10px 90px;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0;
+    justify-content: space-between;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-grow: 1;
+    gap: 100px;
+    font-weight: bolder;
+    margin: 10px 400px;
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    padding: 0 10px;
+}
+
+.auth-btn {
+    width: 110px;
+    height: 46px;
+    border-radius: 5px;
+    border-color: #16133E;
+    font-weight: bolder;
+}
+
+.banner-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.banner-btn {
+    width: 169px;
+    height: 46px;
+    border-radius: 5px;
+    border-color: #007FFC;
+    font-weight: bolder;
+    margin-top: 10px;
+}
+
+
+.image-container {
+    position: relative;
+    width: fit-content;
+    margin: auto;
+}
+
+.image {
+    width: 100%;
+    height: auto;
+}
+
+.arrow-container {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+
+.left-button,
+.right-button {
+    position: relative;
+    top: -200px;
+    transform: translateY(-50%);
+    background-color: #16133E;
+    color: white;
+    border: none;
+    padding: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.left-button {
+    right: 30px;
+}
+
+.right-button{
+    left: 30px;
+}
+
+.service-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.card-container {
+    display: flex;
+    flex-direction: row;
+    gap: 90px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 562px;
+    height: 548px;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+    padding: 10px 26px;
+}
